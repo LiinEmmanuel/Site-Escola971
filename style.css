@@ -37,6 +37,7 @@ padding: 24px 0;
 
 .escola-conteudo{
    width: 25%;
+   font-size: large;
 }
 
 .escola-titulo{
@@ -44,4 +45,30 @@ padding: 24px 0;
 }
 
 body{font-family:'Poppins',sans-serif;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 40px;
+    font-size: xx-large;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 16% 16% 17% 16% 16%;
+    padding: 30px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-footer{
+    width: 10%;
 }
